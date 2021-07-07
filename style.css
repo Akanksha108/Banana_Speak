@@ -17,13 +17,28 @@ body{
    
 }
 
+.navbar{
+     display: inline-block; 
+     width: 100%;
+     background-color: var(--primary-color);
+     /* justify-content: space-around; */
+     margin-bottom: 30px;
+     margin-top: 0;
+}
+
 #header{
-    height: 90px;
-    margin-top: 0;
-    margin-bottom: 30px;
+    margin: 0;
     padding-top: 25px;
-    background-color: var(--primary-color);
     font-size: 50px;
+    text-align: center;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    background-color: var(--primary-color);
+    float: left;
+    margin: 10px 20px;
 }
 
 
