@@ -46,7 +46,7 @@ textarea{
     
 }
 
-.btn-translate{
+#btn-translate{
     margin: 2rem;
     padding: 10px;
     font-size: 20px;
@@ -61,6 +61,7 @@ textarea{
     height: 75px;
     overflow-x:auto;
     overflow-y: auto;
+    font-size: 20px;
 }
 
 .footer_section{
