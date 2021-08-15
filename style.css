@@ -14,14 +14,13 @@
 body{
     text-align: center;
     margin: 0;
-   overflow-y: hidden;
+    overflow-y: auto;
 }
 
 .navbar{
      display: inline-block; 
      width: 100%;
      background-color: var(--primary-color);
-     /* justify-content: space-around; */
      margin-bottom: 30px;
      margin-top: 0;
 }
@@ -57,8 +56,7 @@ textarea{
     height: 75px;   
     padding: 1rem;
     margin-bottom: 0;
-    font-size: 20px;
-    
+    font-size: 20px;   
 }
 
 #btn-translate{
@@ -69,7 +67,6 @@ textarea{
     background-color: var(--primary-color);
     color: black;
     font-weight: bold;
-    width: 20%;
 }
 
 .text-output{
@@ -85,7 +82,6 @@ textarea{
     margin: auto;
     margin-top: 2rem;
     background-color: var(--primary-color);
-    height: 160px;
     padding: 10 40px 40px;
 }
 
@@ -102,7 +98,17 @@ textarea{
 }
 
 @media screen and (min-width: 360px) {
-    body{
-        overflow-y: auto;
+    .footer_section{
+        height: 210px;
+    }
+
+    #btn-translate{
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .footer_section{
+        height: 160px;
     }
 }
