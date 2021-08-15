@@ -100,3 +100,9 @@ textarea{
   font-size: large;
   font-size: 23px;
 }
+
+@media screen and (min-width: 360px) {
+    body{
+        overflow-y: auto;
+    }
+}
